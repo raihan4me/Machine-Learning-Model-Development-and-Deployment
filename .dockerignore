@@ -1,0 +1,12 @@
+.venv
+.git
+.dvc
+data
+mlartifacts
+mlflow.db
+mlflow-server.log
+artifacts
+reports
+tests
+__pycache__
+*.pyc

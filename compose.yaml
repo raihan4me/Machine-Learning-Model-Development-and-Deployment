@@ -1,0 +1,17 @@
+services:
+  api:
+    image: loan-api:1.0.0
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DECISION_THRESHOLD: "0.5"
+    restart: unless-stopped
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    depends_on:
+      - api
