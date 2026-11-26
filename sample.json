@@ -1,0 +1,6 @@
+{"applications": [
+  {"age": 45, "income": 85000, "loan_amount": 8000, "credit_score": 760,
+   "employment_years": 12, "num_open_accounts": 2, "home_ownership": "MORTGAGE"},
+  {"age": 22, "income": 21000, "loan_amount": 12000, "credit_score": 540,
+   "employment_years": 0.5, "num_open_accounts": 9, "home_ownership": "RENT"}
+]}
