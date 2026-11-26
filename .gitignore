@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+mlflow.db
+mlartifacts/
+mlflow-server.log
+reports/
+app/model/*.joblib
+app/model/*.json
+artifacts/
